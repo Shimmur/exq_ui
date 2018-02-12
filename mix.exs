@@ -34,7 +34,7 @@ defmodule ExqUi.Mixfile do
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [
-      { :exq, "~> 0.9"},
+      {:exq, github: "Shimmur/exq", branch: "master"},
       { :plug, ">= 0.8.1 and < 2.0.0"},
       { :cowboy, "~> 1.0" },
       { :excoveralls, "~> 0.3", only: :test },
